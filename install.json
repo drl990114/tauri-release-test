@@ -1,0 +1,35 @@
+{
+  "version": "v0.1.0",
+  "notes": "test",
+  "pub_date": "2025-07-16T09:51:31.365Z",
+  "platforms": {
+    "win64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeTZmYTc5a3FRT3ZLWFB1UFNPRXlPUVFtbGl2YXhISUxyNlBBKzgwRUtEa2E0ZENRcWxCQTEzZDZyYVBsRXNLY1lySlF6RzZ0MjRvWHZFWTJ5S3ZTSHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjU5Mzg0CWZpbGU6TWFya0Zsb3d5XzAuMS4wX3g2NF9lbi1VUy5tc2kKQU1xTi95eGZqM3BuQlNSMUdJd0JCZE5XTWRqM0lxQW5KRm1EeDlqVEhLRzdLN3ZsNml0Ui9NTDQwazNXR29tcm5pdEZHc1J1QWI5Y2xUbFhmcmpkQ1E9PQo=",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.1.0/MarkFlowy_0.1.0_windows_x86_64.msi"
+    },
+    "linux": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeS8xWVN3UXNBY0VMVEpmREduMW81amI1bU9BaUhNdFVDb3U5RnZBYitCUGdyc3dsK05SSjN3MUxnOVNxR2FzU3BPK0JpYW4vVHpienlERFQ3OWlTMWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjU5NDU4CWZpbGU6TWFya0Zsb3d5XzAuMS4wX2FtZDY0LkFwcEltYWdlCkoxSHZTSWNyUUhGL243amxCRGFqSjVjODdtL0U2aVVyUUlsSGd6c0QrSDg5LzYxZFdDUFpLZlpFUHBQR3FGVnRnQjFHK1FscTRoMlUyK29zanVpUEFnPT0K",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.1.0/MarkFlowy_0.1.0_amd64.AppImage"
+    },
+    "darwin": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeTJyYmYvTUxScm1keHFmWkphc3FjZmpYZzE0TTIwVG9aN1IySkFweXhGb1dXZ3h1OGUrQ3RPbW9BL2VIMFlNWjZoVFJjV3NZN2kraUV3NFJiR0dlV0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjU5MjI2CWZpbGU6TWFya0Zsb3d5LmFwcC50YXIuZ3oKeFdKeU5RRlEvMWJ2cnBBR1FpZ2pLQ2s5WFpGRUdaWU1vYUhFY0NXL1BYcGVacmFnSUw5MnJJdXhjT0VUZmY5WUpaSCszTTdHaW95OUtLR05vS0dwQVE9PQo=",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.1.0/MarkFlowy_0.1.0_macos_x86_64.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXg1YXRvMXFNUUxhUTR3Q1J2NGY3Y3RLMG0rbXRhQmF4VVZZOFR5NTl3TVYzWXJtNTRhMzJuREU4eFFMZ0UyOFFQMkV0VDF6U09BVXVya2E5SnM4L1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjU5MjQzCWZpbGU6TWFya0Zsb3d5LmFwcC50YXIuZ3oKQXE4bW5iQ0ZJeTBBZktQd2Myc09zYWJORm52OWRaWGRDVlVWZFdHRm1CbnFVQ3RPRnR0L1M0WFNkUHBsTDR1d0ZGT21DalAyQkpUbzlRbGhZYnhGQXc9PQo=",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.1.0/MarkFlowy_0.1.0_macos_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeTJyYmYvTUxScm1keHFmWkphc3FjZmpYZzE0TTIwVG9aN1IySkFweXhGb1dXZ3h1OGUrQ3RPbW9BL2VIMFlNWjZoVFJjV3NZN2kraUV3NFJiR0dlV0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjU5MjI2CWZpbGU6TWFya0Zsb3d5LmFwcC50YXIuZ3oKeFdKeU5RRlEvMWJ2cnBBR1FpZ2pLQ2s5WFpGRUdaWU1vYUhFY0NXL1BYcGVacmFnSUw5MnJJdXhjT0VUZmY5WUpaSCszTTdHaW95OUtLR05vS0dwQVE9PQo=",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.1.0/MarkFlowy_0.1.0_macos_x86_64.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeS8xWVN3UXNBY0VMVEpmREduMW81amI1bU9BaUhNdFVDb3U5RnZBYitCUGdyc3dsK05SSjN3MUxnOVNxR2FzU3BPK0JpYW4vVHpienlERFQ3OWlTMWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjU5NDU4CWZpbGU6TWFya0Zsb3d5XzAuMS4wX2FtZDY0LkFwcEltYWdlCkoxSHZTSWNyUUhGL243amxCRGFqSjVjODdtL0U2aVVyUUlsSGd6c0QrSDg5LzYxZFdDUFpLZlpFUHBQR3FGVnRnQjFHK1FscTRoMlUyK29zanVpUEFnPT0K",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.1.0/MarkFlowy_0.1.0_amd64.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeTZmYTc5a3FRT3ZLWFB1UFNPRXlPUVFtbGl2YXhISUxyNlBBKzgwRUtEa2E0ZENRcWxCQTEzZDZyYVBsRXNLY1lySlF6RzZ0MjRvWHZFWTJ5S3ZTSHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjU5Mzg0CWZpbGU6TWFya0Zsb3d5XzAuMS4wX3g2NF9lbi1VUy5tc2kKQU1xTi95eGZqM3BuQlNSMUdJd0JCZE5XTWRqM0lxQW5KRm1EeDlqVEhLRzdLN3ZsNml0Ui9NTDQwazNXR29tcm5pdEZHc1J1QWI5Y2xUbFhmcmpkQ1E9PQo=",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.1.0/MarkFlowy_0.1.0_windows_x86_64.msi"
+    }
+  }
+}
