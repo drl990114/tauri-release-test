@@ -75,6 +75,7 @@ jobs:
             ./src-tauri/target/${{ matrix.target }}/release/bundle/appimage/**.AppImage.*
             ./src-tauri/target/${{ matrix.target }}/release/bundle/appimage/**.AppImage
             ./src-tauri/target/${{ matrix.target }}/release/bundle/deb/**.deb
+            ./src-tauri/target/${{ matrix.target }}/release/bundle/rpm/**.rpm
 
       - uses: actions/upload-artifact@v4
         if: matrix.os == 'macos-latest' && matrix.arch == 'aarch64'
@@ -125,22 +126,22 @@ jobs:
 
       - name: Rename artifacts
         run: |
-          mv "artifacts/aarch64/dmg/MarkFlowy_${{ env.version }}_aarch64.dmg" "artifacts/MarkFlowy_${{ env.version }}_macos_aarch64.dmg"
-          mv "artifacts/aarch64/macos/MarkFlowy.app.tar.gz" "artifacts/MarkFlowy_${{ env.version }}_macos_aarch64.app.tar.gz"
-          mv "artifacts/aarch64/macos/MarkFlowy.app.tar.gz.sig" "artifacts/MarkFlowy_${{ env.version }}_macos_aarch64.app.tar.gz.sig"
+          mv "artifacts/aarch64/dmg/MarkFlowy_${{ env.version }}_aarch64.dmg" "artifacts/MarkFlowy_${{ env.version }}_aarch64.dmg"
+          mv "artifacts/aarch64/macos/MarkFlowy.app.tar.gz" "artifacts/MarkFlowy_aarch64.app.tar.gz"
+          mv "artifacts/aarch64/macos/MarkFlowy.app.tar.gz.sig" "artifacts/MarkFlowy_aarch64.app.tar.gz.sig"
 
-          mv "artifacts/x86_64/dmg/MarkFlowy_${{ env.version }}_x64.dmg" "artifacts/MarkFlowy_${{ env.version }}_macos_x86_64.dmg"
-          mv "artifacts/x86_64/macos/MarkFlowy.app.tar.gz" "artifacts/MarkFlowy_${{ env.version }}_macos_x86_64.app.tar.gz"
-          mv "artifacts/x86_64/macos/MarkFlowy.app.tar.gz.sig" "artifacts/MarkFlowy_${{ env.version }}_macos_x86_64.app.tar.gz.sig"
+          mv "artifacts/x86_64/dmg/MarkFlowy_${{ env.version }}_x64.dmg" "artifacts/MarkFlowy_${{ env.version }}_x64.dmg"
+          mv "artifacts/x86_64/macos/MarkFlowy.app.tar.gz" "artifacts/MarkFlowy_x64.app.tar.gz"
+          mv "artifacts/x86_64/macos/MarkFlowy.app.tar.gz.sig" "artifacts/MarkFlowy_x64.app.tar.gz.sig"
 
-          mv "artifacts/x86_64/deb/MarkFlowy_${{ env.version }}_amd64.deb" "artifacts/MarkFlowy_${{ env.version }}_linux_x86_64.deb"
-          mv "artifacts/x86_64/appimage/MarkFlowy_${{ env.version }}_amd64.AppImage.sig" "artifacts/MarkFlowy_${{ env.version }}_linux_x86_64.AppImage.sig"
+          mv "artifacts/x86_64/deb/MarkFlowy_${{ env.version }}_amd64.deb" "artifacts/MarkFlowy_${{ env.version }}_amd64.deb"
+          mv artifacts/x86_64/appimage/* artifacts/
+          mv artifacts/x86_64/rpm/* artifacts/
 
-          mv "artifacts/x86_64/msi/MarkFlowy_${{ env.version }}_x64_en-US.msi" "artifacts/MarkFlowy_${{ env.version }}_windows_x86_64.msi"
-          mv "artifacts/x86_64/msi/MarkFlowy_${{ env.version }}_x64_en-US.msi.sig" "artifacts/MarkFlowy_${{ env.version }}_windows_x86_64.msi.sig"
+          mv "artifacts/x86_64/msi/MarkFlowy_${{ env.version }}_x64_en-US.msi" "artifacts/MarkFlowy_${{ env.version }}_x64.msi"
+          mv "artifacts/x86_64/msi/MarkFlowy_${{ env.version }}_x64_en-US.msi.sig" "artifacts/MarkFlowy_${{ env.version }}_x64.msi.sig"
 
-          mv "artifacts/x86_64/nsis/MarkFlowy_${{ env.version }}_x64-setup.exe" "artifacts/MarkFlowy_${{ env.version }}_windows_x86_64-setup.exe"
-          mv "artifacts/x86_64/nsis/MarkFlowy_${{ env.version }}_x64-setup.exe.sig" "artifacts/MarkFlowy_${{ env.version }}_windows_x86_64-setup.exe.sig"
+          mv artifacts/x86_64/nsis/* artifacts/
 
       - name: Create Release
         uses: softprops/action-gh-release@v2.1.0
@@ -177,22 +178,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./updater
           # force_orphan: true
-
-         # 增加获取版本号
-      - name: Generate release tag
-        id: save_tag
-        run: |
-          # 调试输出
-          echo ${{ env.version }}
-          # 输出到步骤级
-          echo "appVersion=${{ env.version }}" >> $GITHUB_OUTPUT
-
-      # 设置作业级输出
-      - name: Set job output
-        id: set_output
-        run: |
-          # 注意：这里引用的是 save_tag 步骤的 tag_name 输出
-          echo "appVersion=${{ steps.save_tag.outputs.appVersion }}" >> $GITHUB_OUTPUT
 
   upgradeLink-upload:
     needs: release
