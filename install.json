@@ -1,35 +1,35 @@
 {
-  "version": "v0.2.0",
+  "version": "v0.3.0",
   "notes": "test",
-  "pub_date": "2025-07-16T12:20:48.893Z",
+  "pub_date": "2025-07-16T14:35:03.073Z",
   "platforms": {
     "win64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeS9yaUVOeDIzSkFqZnU5ZDhqR3VjWEZLVFo5ZVpnTm1oSGtVR00yeDRTTXc1ZjNSKzFLUWJRMkFoOHhaVE9yb08vdyt4K3YvVFVwNEJiRGs2VzJKZ1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjY4NDA0CWZpbGU6TWFya0Zsb3d5XzAuMi4wX3g2NF9lbi1VUy5tc2kKUGk3MXNiRU9TdFRCZGIvZ05xSUU3ajVHU0U0ZUJXNVhSSjVhVzQrcndIdkI3YW00RGpuT2VYdFQvV3RmWVdsWHp3Tld6ajhrOVVIaThGVWVhL2hJQ1E9PQo=",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.2.0/MarkFlowy_0.2.0_x64.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXlGakoxbnQweklOYlI2ZHRzMktSaFVVcW9DbWxWTGYrT0FCemZTeGMrbmdkN0t2Z1J1QmhDUkFtZ0FQRmp5R1g2M1o2OUk1NExGaDN4UWRvb0lvTGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjc2NDYxCWZpbGU6UmVsZWFzZXRlc3RfMC4zLjBfeDY0X2VuLVVTLm1zaQpEN1dTS2xZU2UrQzV2SC9DSXBxcWJENm9GSDZ0Y2VCNFc1WGtCZHgwWW85dXNqN3MrTmUxd3NzSXBuc0x2ZzIwdjVMT1lxOXkxb25SRG1TSStrS1pDQT09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.3.0/Releasetest_v0.3.0_x64.msi"
     },
     "linux": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeTNxRUdQd3VMZVBYR08wUnhFeWNxRUVieW85NGhzbXE0YzNtZG5SQTlqODJrZlZnb2dkaTFhMmR0RkJUSmVseFZ2dnl0czM2SUNvTjBJTnJVcGltZndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjY4Mjg0CWZpbGU6TWFya0Zsb3d5XzAuMi4wX2FtZDY0LkFwcEltYWdlCmttWkIzNHdEeWRaSHd6SUFBOTdoYjRKOXozeTU2MmVZSXlJMkI2TjZUR3BYUUo2cUx5Zm9DbnlaM1NyTWlNTWZabjJ0MHlVcmpvd25wVURiL013WURBPT0K",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.2.0/MarkFlowy_0.2.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXlIbHY4dWNhVjhWVHlDNTVPY1pnSEY1QkhpZnlVNjVldWo3dk9XMlM3NEtKNFJrRzJ6NENjbHM5WXVkUkJmZytHSXRXMEYwUkJGUndZREJVcmxOaWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjc2NDYwCWZpbGU6UmVsZWFzZXRlc3RfMC4zLjBfYW1kNjQuQXBwSW1hZ2UKQWFZQ1ZTbXFnT3VEZXkyNTZ3TlVHL09GRC9PancxWllncHlpckd0b09ZdjJ2WEdQcW5VMXZaaCtROVg5TnU3K1psamFxQVliclRubHNPVEFDTHEwQ2c9PQo=",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.3.0/Releasetest_v0.3.0_amd64.AppImage"
     },
     "darwin": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXl4ZmNxV2svMnh0TVBuK3NPd2NQRVhlQ2p0MmpsaDhhL2MxOU1GMUE1ZUF2MHMwQ040eUp5Zng1NDR3dTQrM3FEWnFSNWphczlnbWRBQWRkQlBXZmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjY4MTA0CWZpbGU6TWFya0Zsb3d5LmFwcC50YXIuZ3oKTVFTTzFiakMxeDZ0MjJXcGZhQlJ6eHYwbjVCU3V1dnltckpZbEgxVXZCazRTYUFWckZCd0pSMWhudEx2WnBjSXdQbWdkRU4zZ3RpSm5tQXdhL0pDQ0E9PQo=",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.2.0/MarkFlowy_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXh6Q0d0YVlHMUpJc2NWTEptMkxJZldiM1ExTnZ6Q3VCMGRQaC92a05EY3lEZHF5SmpyMDRGWDJhV2h3L1VZNW5rNjZnd1I0Z3ZlYUlDUjlESERvckFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjc2Mjc4CWZpbGU6UmVsZWFzZXRlc3QuYXBwLnRhci5negpKaC9EQ0pqaG9iTDlRU0o3M2ZtV3hwYjgxd2RqY1FkNEZNeEc3NTgzbUtubFlZNGp0ODlyUUpMOWZwTUh3UjQxaHBYclZ0UStBTGM4L3libGhwbFZBZz09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.3.0/Releasetest_x64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXl4ZmNxV2svMnh0TVBuK3NPd2NQRVhlQ2p0MmpsaDhhL2MxOU1GMUE1ZUF2MHMwQ040eUp5Zng1NDR3dTQrM3FEWnFSNWphczlnbWRBQWRkQlBXZmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjY4MTA0CWZpbGU6TWFya0Zsb3d5LmFwcC50YXIuZ3oKTVFTTzFiakMxeDZ0MjJXcGZhQlJ6eHYwbjVCU3V1dnltckpZbEgxVXZCazRTYUFWckZCd0pSMWhudEx2WnBjSXdQbWdkRU4zZ3RpSm5tQXdhL0pDQ0E9PQo=",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.2.0/MarkFlowy_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeTUzTUxSdUJIUm9Ia3ZDTEJVZzlFdGg0NUJEUnNGcmJ4Q2VtQXgyK2tkd01JRDhPdnVaYmlSSkFhY24zd2pjQ1M0S3NIQkMrZ2xCaWdKQ1gzOEx2SFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjc2MzExCWZpbGU6UmVsZWFzZXRlc3QuYXBwLnRhci5negpiNFpFRHhBc3AyUjU2bzVxNExrUEU5bm1QVHpveDdaUXBjQ0tUb2JnYThLUVFYQ0tscEJWMlMxcGpzLyt6K3Q3KzZ6U3NnbUFwK21xWWZWZVRhajhEZz09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.3.0/Releasetest_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXl4ZmNxV2svMnh0TVBuK3NPd2NQRVhlQ2p0MmpsaDhhL2MxOU1GMUE1ZUF2MHMwQ040eUp5Zng1NDR3dTQrM3FEWnFSNWphczlnbWRBQWRkQlBXZmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjY4MTA0CWZpbGU6TWFya0Zsb3d5LmFwcC50YXIuZ3oKTVFTTzFiakMxeDZ0MjJXcGZhQlJ6eHYwbjVCU3V1dnltckpZbEgxVXZCazRTYUFWckZCd0pSMWhudEx2WnBjSXdQbWdkRU4zZ3RpSm5tQXdhL0pDQ0E9PQo=",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.2.0/MarkFlowy_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXh6Q0d0YVlHMUpJc2NWTEptMkxJZldiM1ExTnZ6Q3VCMGRQaC92a05EY3lEZHF5SmpyMDRGWDJhV2h3L1VZNW5rNjZnd1I0Z3ZlYUlDUjlESERvckFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjc2Mjc4CWZpbGU6UmVsZWFzZXRlc3QuYXBwLnRhci5negpKaC9EQ0pqaG9iTDlRU0o3M2ZtV3hwYjgxd2RqY1FkNEZNeEc3NTgzbUtubFlZNGp0ODlyUUpMOWZwTUh3UjQxaHBYclZ0UStBTGM4L3libGhwbFZBZz09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.3.0/Releasetest_x64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeTNxRUdQd3VMZVBYR08wUnhFeWNxRUVieW85NGhzbXE0YzNtZG5SQTlqODJrZlZnb2dkaTFhMmR0RkJUSmVseFZ2dnl0czM2SUNvTjBJTnJVcGltZndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjY4Mjg0CWZpbGU6TWFya0Zsb3d5XzAuMi4wX2FtZDY0LkFwcEltYWdlCmttWkIzNHdEeWRaSHd6SUFBOTdoYjRKOXozeTU2MmVZSXlJMkI2TjZUR3BYUUo2cUx5Zm9DbnlaM1NyTWlNTWZabjJ0MHlVcmpvd25wVURiL013WURBPT0K",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.2.0/MarkFlowy_0.2.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXlIbHY4dWNhVjhWVHlDNTVPY1pnSEY1QkhpZnlVNjVldWo3dk9XMlM3NEtKNFJrRzJ6NENjbHM5WXVkUkJmZytHSXRXMEYwUkJGUndZREJVcmxOaWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjc2NDYwCWZpbGU6UmVsZWFzZXRlc3RfMC4zLjBfYW1kNjQuQXBwSW1hZ2UKQWFZQ1ZTbXFnT3VEZXkyNTZ3TlVHL09GRC9PancxWllncHlpckd0b09ZdjJ2WEdQcW5VMXZaaCtROVg5TnU3K1psamFxQVliclRubHNPVEFDTHEwQ2c9PQo=",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.3.0/Releasetest_v0.3.0_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeS9yaUVOeDIzSkFqZnU5ZDhqR3VjWEZLVFo5ZVpnTm1oSGtVR00yeDRTTXc1ZjNSKzFLUWJRMkFoOHhaVE9yb08vdyt4K3YvVFVwNEJiRGs2VzJKZ1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjY4NDA0CWZpbGU6TWFya0Zsb3d5XzAuMi4wX3g2NF9lbi1VUy5tc2kKUGk3MXNiRU9TdFRCZGIvZ05xSUU3ajVHU0U0ZUJXNVhSSjVhVzQrcndIdkI3YW00RGpuT2VYdFQvV3RmWVdsWHp3Tld6ajhrOVVIaThGVWVhL2hJQ1E9PQo=",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.2.0/MarkFlowy_0.2.0_x64.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSElMT0VwUE9zeXlGakoxbnQweklOYlI2ZHRzMktSaFVVcW9DbWxWTGYrT0FCemZTeGMrbmdkN0t2Z1J1QmhDUkFtZ0FQRmp5R1g2M1o2OUk1NExGaDN4UWRvb0lvTGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNjc2NDYxCWZpbGU6UmVsZWFzZXRlc3RfMC4zLjBfeDY0X2VuLVVTLm1zaQpEN1dTS2xZU2UrQzV2SC9DSXBxcWJENm9GSDZ0Y2VCNFc1WGtCZHgwWW85dXNqN3MrTmUxd3NzSXBuc0x2ZzIwdjVMT1lxOXkxb25SRG1TSStrS1pDQT09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.3.0/Releasetest_v0.3.0_x64.msi"
     }
   }
 }
