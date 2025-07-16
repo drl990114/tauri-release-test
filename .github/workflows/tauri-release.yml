@@ -200,10 +200,19 @@ jobs:
       contents: write
     runs-on: ubuntu-24.04
     steps:
+      - name: Query version number
+        run: echo "version=${GITHUB_REF:11}" >> $GITHUB_ENV
+
+      - name: Generate release tag
+        id: save_tag
+        run: |
+          # 调试输出
+          echo ${{ env.version }}
+
       - name: Send a request to UpgradeLink
         uses: toolsetlink/upgradelink-action@v5
         with:
-          source-url: 'https://github.com/drl990114/tauri-release-test/releases/download/v${{ needs.release.outputs.appVersion }}/install.json'
+          source-url: 'https://github.com/drl990114/tauri-release-test/releases/download/v${{ env.version }}/install.json'
           access-key: ${{ secrets.UPGRADE_LINK_ACCESS_KEY }}  # ACCESS_KEY  密钥key
           tauri-key: ${{ secrets.UPGRADE_LINK_TAURI_KEY }}    # TAURI_KEY tauri 应用唯一标识
           github-token: ${{ secrets.GITHUB_TOKEN }}
