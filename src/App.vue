@@ -1,7 +1,31 @@
 <script setup lang="ts">
 import { check } from '@tauri-apps/plugin-updater';
+import { onMounted } from 'vue';
 
-const updateInfo = await check()
+// 封装检查更新函数
+const fetchUpdate = async () => {
+  try {
+    const updater = await check(); // 赋值给响应式变量
+    console.log('检查新版本:', updater);
+
+    if (updater !== null) {
+      updater.install()
+        .then(() => {
+          console.log('更新安装成功');
+        })
+        .catch((error) => {
+          console.error('更新安装失败:', error);
+        });
+    }
+  } catch (error) {
+    console.error('检查更新失败:', error);
+  }
+};
+
+// 在组件挂载后执行
+onMounted(() => {
+  fetchUpdate();
+});
 </script>
 
 <template>
@@ -17,7 +41,6 @@ const updateInfo = await check()
         <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
       </a>
     </div>
-    <p>updater info: {{ JSON.stringify(updateInfo) }}</p>
   </main>
 </template>
 
@@ -29,7 +52,6 @@ const updateInfo = await check()
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #249b73);
 }
-
 </style>
 <style>
 :root {
@@ -108,6 +130,7 @@ button {
 button:hover {
   border-color: #396cd8;
 }
+
 button:active {
   border-color: #396cd8;
   background-color: #e8e8e8;
@@ -137,9 +160,9 @@ button {
     color: #ffffff;
     background-color: #0f0f0f98;
   }
+
   button:active {
     background-color: #0f0f0f69;
   }
 }
-
 </style>

@@ -126,22 +126,24 @@ jobs:
 
       - name: Rename artifacts
         run: |
-          mv "artifacts/aarch64/dmg/MarkFlowy_${{ env.version }}_aarch64.dmg" "artifacts/MarkFlowy_${{ env.version }}_aarch64.dmg"
-          mv "artifacts/aarch64/macos/MarkFlowy.app.tar.gz" "artifacts/MarkFlowy_aarch64.app.tar.gz"
-          mv "artifacts/aarch64/macos/MarkFlowy.app.tar.gz.sig" "artifacts/MarkFlowy_aarch64.app.tar.gz.sig"
+          mv "artifacts/aarch64/dmg/Releasetest_${{ env.version }}_aarch64.dmg" "artifacts/Releasetest_v${{ env.version }}_aarch64.dmg"
+          mv "artifacts/aarch64/macos/Releasetest.app.tar.gz" "artifacts/Releasetest_aarch64.app.tar.gz"
+          mv "artifacts/aarch64/macos/Releasetest.app.tar.gz.sig" "artifacts/Releasetest_aarch64.app.tar.gz.sig"
 
-          mv "artifacts/x86_64/dmg/MarkFlowy_${{ env.version }}_x64.dmg" "artifacts/MarkFlowy_${{ env.version }}_x64.dmg"
-          mv "artifacts/x86_64/macos/MarkFlowy.app.tar.gz" "artifacts/MarkFlowy_x64.app.tar.gz"
-          mv "artifacts/x86_64/macos/MarkFlowy.app.tar.gz.sig" "artifacts/MarkFlowy_x64.app.tar.gz.sig"
+          mv "artifacts/x86_64/dmg/Releasetest_${{ env.version }}_x64.dmg" "artifacts/Releasetest_v${{ env.version }}_x64.dmg"
+          mv "artifacts/x86_64/macos/Releasetest.app.tar.gz" "artifacts/Releasetest_x64.app.tar.gz"
+          mv "artifacts/x86_64/macos/Releasetest.app.tar.gz.sig" "artifacts/Releasetest_x64.app.tar.gz.sig"
 
-          mv "artifacts/x86_64/deb/MarkFlowy_${{ env.version }}_amd64.deb" "artifacts/MarkFlowy_${{ env.version }}_amd64.deb"
-          mv artifacts/x86_64/appimage/* artifacts/
+          mv "artifacts/x86_64/deb/Releasetest_${{ env.version }}_amd64.deb" "artifacts/Releasetest_v${{ env.version }}_amd64.deb"
+          mv "artifacts/x86_64/appimage/Releasetest_${{ env.version }}_amd64.AppImage" "artifacts/Releasetest_v${{ env.version }}_amd64.AppImage"
+          mv "artifacts/x86_64/appimage/Releasetest_${{ env.version }}_amd64.AppImage.sig" "artifacts/Releasetest_v${{ env.version }}_amd64.AppImage.sig"
           mv artifacts/x86_64/rpm/* artifacts/
 
-          mv "artifacts/x86_64/msi/MarkFlowy_${{ env.version }}_x64_en-US.msi" "artifacts/MarkFlowy_${{ env.version }}_x64.msi"
-          mv "artifacts/x86_64/msi/MarkFlowy_${{ env.version }}_x64_en-US.msi.sig" "artifacts/MarkFlowy_${{ env.version }}_x64.msi.sig"
+          mv "artifacts/x86_64/msi/Releasetest_${{ env.version }}_x64_en-US.msi" "artifacts/Releasetest_v${{ env.version }}_x64.msi"
+          mv "artifacts/x86_64/msi/Releasetest_${{ env.version }}_x64_en-US.msi.sig" "artifacts/Releasetest_v${{ env.version }}_x64.msi.sig"
 
-          mv artifacts/x86_64/nsis/* artifacts/
+          mv "artifacts/x86_64/nsis/Releasetest_${{ env.version }}_x64-setup.exe" "artifacts/Releasetest_v${{ env.version }}_x64-setup.exe"
+          mv "artifacts/x86_64/nsis/Releasetest_${{ env.version }}_x64-setup.exe.sig" "artifacts/Releasetest_v${{ env.version }}_x64-setup.exe.sig"
 
       - name: Create Release
         uses: softprops/action-gh-release@v2.1.0
