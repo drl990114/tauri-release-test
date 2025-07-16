@@ -1,0 +1,65 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "MarkFlowy",
+  "version": "0.1.0",
+  "identifier": "com.drl990114.releasetest",
+  "build": {
+    "beforeDevCommand": "yarn dev",
+    "devUrl": "http://localhost:3000",
+    "frontendDist": "../dist"
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "http://api.upgrade.toolsetlink.com/v1/tauri/upgrade?tauriKey=bj4K5BaVltyzWhyYgG0Skg&versionName={{current_version}}&appointVersionName=&devModelKey=&devKey=&target={{target}}&arch={{arch}}",
+        "https://drl990114.github.io/tauri-release-test/install.json"
+      ],
+      "active": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IENCQUNGM0E0ODRCMzIwMDcKUldRSElMT0VwUE9zeTVWb1RHVTVvdnhuS2RXenY3THNrWEhWeUQ4eEdzdXZnZHI1YkYrZ1M0WnkK",
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "createUpdaterArtifacts": true,
+    "category": "DeveloperTool",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "targets": "all",
+    "windows": {
+      "digestAlgorithm": "sha256",
+      "webviewInstallMode": {
+        "type": "embedBootstrapper"
+      },
+      "wix": {
+        "language": ["en-US"]
+      }
+    },
+    "macOS": {
+      "entitlements": null,
+      "exceptionDomain": "",
+      "frameworks": [],
+      "providerShortName": null,
+      "signingIdentity": null
+    }
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "tauri-app",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  }
+}
