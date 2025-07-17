@@ -1,15 +1,23 @@
 <script setup lang="ts">
+import { getVersion } from '@tauri-apps/api/app';
 import { check } from '@tauri-apps/plugin-updater';
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 
 // 封装检查更新函数
 const fetchUpdate = async () => {
   try {
-    const updater = await check(); // 赋值给响应式变量
+    const updater = await check(
+      {
+         headers: {
+            'X-AccessKey': 'Z_a1MB4UFk1vRd-v7D11Zw',
+          },
+          timeout: 5000,
+      }
+    ); // 赋值给响应式变量
     console.log('检查新版本:', updater);
 
     if (updater !== null) {
-      updater.install()
+      updater.downloadAndInstall()
         .then(() => {
           console.log('更新安装成功');
         })
@@ -22,9 +30,17 @@ const fetchUpdate = async () => {
   }
 };
 
+const version = ref('');
+
 // 在组件挂载后执行
 onMounted(() => {
   fetchUpdate();
+  getVersion().then((v) => {
+    version.value = v;
+    console.log('当前版本:', version.value);
+  }).catch((error) => {
+    console.error('获取版本失败:', error);
+  });
 });
 </script>
 
@@ -41,6 +57,7 @@ onMounted(() => {
         <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
       </a>
     </div>
+    <p>当前版本: {{ version }}</p>
   </main>
 </template>
 
