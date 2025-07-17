@@ -1,35 +1,35 @@
 {
-  "version": "v0.4.0",
-  "notes": "test4",
-  "pub_date": "2025-07-17T04:56:21.632Z",
+  "version": "v0.5.0",
+  "notes": "test5",
+  "pub_date": "2025-07-17T07:11:13.742Z",
   "platforms": {
     "win64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREJVbTgrL1RCcU5pbUxtMndkVmZlemxLOGZiK0ZHYlkvT2d3ZWI4U1kzaitrUnJqUWh1U0poanJvdVlGSVNVQWY1T3hwRWhIOUpTMlBtamhuckxUeGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzI4MTIyCWZpbGU6UmVsZWFzZXRlc3RfMC40LjBfeDY0X2VuLVVTLm1zaQp5T2t0SmNnWlJPOG5wMkJraGkwdVhsN1BxQytteHFTd0J0U2QraEJOZUhqVmxVYS9zamxvaGEyZU11NzFTU0twWk8xSkJOL0lFdkFZNWRzNStPbUZDQT09Cg==",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.4.0/Releasetest_v0.4.0_x64.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREFNT2paSmpZRlBOTHRiYTJpQTZqakl4U0wwSHJYdHY4WGt6UmJKLzlBZDRGM0VyOVRpQ1FwWlk3UTNTMmFEaktBV2JQbU81N3Y1VTNka1REdU9zOEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzM2MTczCWZpbGU6UmVsZWFzZXRlc3RfMC41LjBfeDY0X2VuLVVTLm1zaQphNzdYMGNDeGo4YnQ4YU1qYUpOYXFlVmRnZGorNTBGR1BwMWphbEpxUjArNlVTWnJYZFdCSXJpVGlESGZHNUdMamtWcUpBQ215YXlPNnhEQzlCZFNDUT09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.5.0/Releasetest_v0.5.0_x64.msi"
     },
     "linux": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREo0c3YwdzJrNElmdVE0dlVCTHJYaE1KNHIzOS9Vc1FWc05xWVJXNzViSlVFdWRqUlIwK0RGZTh4NG1YdU5wdDJ5NEZQRzBDVzhHQWZHY0JGc1RQbndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzI4MTQyCWZpbGU6UmVsZWFzZXRlc3RfMC40LjBfYW1kNjQuQXBwSW1hZ2UKV25DYlZYSkZmOUJFd0g1YTFUZExJQ0pyMjBqZzU2d2F0M2Q1TUw4OXNjWWxncFBlK2RlUFhNNlhXL01zMUcrVnJYb2s3QnR3NzVzVXNoMXBQd1RNQUE9PQo=",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.4.0/Releasetest_v0.4.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qRElUcE1pcVJlK041VkxmV1NqMXJFMWlWbjlyRS8wRzJvbFdEOTBqYjBxcmtEN1hTTUNHMmUrdVQ1cmU0WHJiMmh1MGJtdzZ6N0k4TW5tQVNkOW5Pb2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzM2MjQzCWZpbGU6UmVsZWFzZXRlc3RfMC41LjBfYW1kNjQuQXBwSW1hZ2UKcDJpVytSREF5RHRYWlRmTDcvdm1VVHNXUFcveE92UjB3YmpCOHIxQnNReVJBK1Z1Y1JoWGFlMTJqc3VvWkNvSGZFREhyZmk4MXM0UjZQZVZERWdFRFE9PQo=",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.5.0/Releasetest_v0.5.0_amd64.AppImage"
     },
     "darwin": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREhxWGNIWElxT0pCRkVKRGYxNWRXZW9sTFZwc0Z4U3dIcG54cVlPZFNLSU02bVBpWG82dHdhOWpYMGtid3dWVjYwd0JldjQrU0hXN25ZaFhVekRldGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzI3OTU5CWZpbGU6UmVsZWFzZXRlc3QuYXBwLnRhci5negpEejQ1NkZNdnR6VmhDOGp6T1BwNXBzSEZibWdnM2xQREVwbVdGNkIwQ29WYUdReWFOdklBeStQTWR2TVovMXJjZ2xJRUNqR1RwOVA1eWJHdStYd0FDUT09Cg==",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.4.0/Releasetest_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qRENzY3IzL0NrcmwvdkNPbHFKbFVIVWRvQVpEOTZEUlBYVkFwRktqK1lEM2xkNXdmYkYyY0tiNFQzNVdETTl3RXVJaStydHcvQlVxVXdhT0Q1YnVWU1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzM1OTc5CWZpbGU6UmVsZWFzZXRlc3QuYXBwLnRhci5negpiVkp1dnhIZEhlZFhRZkhmUnVGZlpSQ2V4aXJTSURiaEg1dW9yZVJZanl3K2VjdVVZWnRKZndOSWxHMHRyTUc3ZjkxSWZUWUdtcWwzbDhLb3l5c0FEZz09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.5.0/Releasetest_x64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREgrTFNnK3Frd1haamE4endBN0lodVpNTGJQNXdtUXE0OHZZUVR2QkV6NmxZaU9DTDhVcHhncE9jTVlzVlc5VFZaZzhaaTZsakEwK1dpUlJkSkVrTnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzI3OTUyCWZpbGU6UmVsZWFzZXRlc3QuYXBwLnRhci5negpQcWhudElWc3FjeFdFeUROOFgrYWd5VFo1eTBzZVZEK0l3UUpTb2NhaVBvQWl2YzB1T1ZyNjBvbGxtaExGVTJEYU5XU25ici9GK0tjQWYvNkdnSjdDQT09Cg==",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.4.0/Releasetest_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREV1OGVxdVhGZHNIQkxzUFVmbzZBV05nL2YyejVMYXNWdlVORG91WDF2MUJBbDlHdFRDVmJQVEwwVWwrZ2JoQkRkUVZ5VlZzOGh0MTdQcllKb0ZHTkFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzM2MDk5CWZpbGU6UmVsZWFzZXRlc3QuYXBwLnRhci5negpqS1dMbGJDelAzZmJTcWVEd3BjZ09SRDR1blNXMVRsV0k0c21FaFByN0xzM3o5djFMaFArVjBRc2NtNXhDZ3V1RFM4VG5HZk5hQ2dKRlFuN0ZEcnNDUT09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.5.0/Releasetest_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREhxWGNIWElxT0pCRkVKRGYxNWRXZW9sTFZwc0Z4U3dIcG54cVlPZFNLSU02bVBpWG82dHdhOWpYMGtid3dWVjYwd0JldjQrU0hXN25ZaFhVekRldGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzI3OTU5CWZpbGU6UmVsZWFzZXRlc3QuYXBwLnRhci5negpEejQ1NkZNdnR6VmhDOGp6T1BwNXBzSEZibWdnM2xQREVwbVdGNkIwQ29WYUdReWFOdklBeStQTWR2TVovMXJjZ2xJRUNqR1RwOVA1eWJHdStYd0FDUT09Cg==",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.4.0/Releasetest_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qRENzY3IzL0NrcmwvdkNPbHFKbFVIVWRvQVpEOTZEUlBYVkFwRktqK1lEM2xkNXdmYkYyY0tiNFQzNVdETTl3RXVJaStydHcvQlVxVXdhT0Q1YnVWU1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzM1OTc5CWZpbGU6UmVsZWFzZXRlc3QuYXBwLnRhci5negpiVkp1dnhIZEhlZFhRZkhmUnVGZlpSQ2V4aXJTSURiaEg1dW9yZVJZanl3K2VjdVVZWnRKZndOSWxHMHRyTUc3ZjkxSWZUWUdtcWwzbDhLb3l5c0FEZz09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.5.0/Releasetest_x64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREo0c3YwdzJrNElmdVE0dlVCTHJYaE1KNHIzOS9Vc1FWc05xWVJXNzViSlVFdWRqUlIwK0RGZTh4NG1YdU5wdDJ5NEZQRzBDVzhHQWZHY0JGc1RQbndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzI4MTQyCWZpbGU6UmVsZWFzZXRlc3RfMC40LjBfYW1kNjQuQXBwSW1hZ2UKV25DYlZYSkZmOUJFd0g1YTFUZExJQ0pyMjBqZzU2d2F0M2Q1TUw4OXNjWWxncFBlK2RlUFhNNlhXL01zMUcrVnJYb2s3QnR3NzVzVXNoMXBQd1RNQUE9PQo=",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.4.0/Releasetest_v0.4.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qRElUcE1pcVJlK041VkxmV1NqMXJFMWlWbjlyRS8wRzJvbFdEOTBqYjBxcmtEN1hTTUNHMmUrdVQ1cmU0WHJiMmh1MGJtdzZ6N0k4TW5tQVNkOW5Pb2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzM2MjQzCWZpbGU6UmVsZWFzZXRlc3RfMC41LjBfYW1kNjQuQXBwSW1hZ2UKcDJpVytSREF5RHRYWlRmTDcvdm1VVHNXUFcveE92UjB3YmpCOHIxQnNReVJBK1Z1Y1JoWGFlMTJqc3VvWkNvSGZFREhyZmk4MXM0UjZQZVZERWdFRFE9PQo=",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.5.0/Releasetest_v0.5.0_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREJVbTgrL1RCcU5pbUxtMndkVmZlemxLOGZiK0ZHYlkvT2d3ZWI4U1kzaitrUnJqUWh1U0poanJvdVlGSVNVQWY1T3hwRWhIOUpTMlBtamhuckxUeGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzI4MTIyCWZpbGU6UmVsZWFzZXRlc3RfMC40LjBfeDY0X2VuLVVTLm1zaQp5T2t0SmNnWlJPOG5wMkJraGkwdVhsN1BxQytteHFTd0J0U2QraEJOZUhqVmxVYS9zamxvaGEyZU11NzFTU0twWk8xSkJOL0lFdkFZNWRzNStPbUZDQT09Cg==",
-      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.4.0/Releasetest_v0.4.0_x64.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXZiYzFtZy9qREFNT2paSmpZRlBOTHRiYTJpQTZqakl4U0wwSHJYdHY4WGt6UmJKLzlBZDRGM0VyOVRpQ1FwWlk3UTNTMmFEaktBV2JQbU81N3Y1VTNka1REdU9zOEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUyNzM2MTczCWZpbGU6UmVsZWFzZXRlc3RfMC41LjBfeDY0X2VuLVVTLm1zaQphNzdYMGNDeGo4YnQ4YU1qYUpOYXFlVmRnZGorNTBGR1BwMWphbEpxUjArNlVTWnJYZFdCSXJpVGlESGZHNUdMamtWcUpBQ215YXlPNnhEQzlCZFNDUT09Cg==",
+      "url": "https://github.com/drl990114/tauri-release-test/releases/download/v0.5.0/Releasetest_v0.5.0_x64.msi"
     }
   }
 }
