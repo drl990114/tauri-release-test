@@ -8,13 +8,13 @@ const fetchUpdate = async () => {
   try {
     const updater = await check(
       {
-         headers: {
-            'X-AccessKey': 'Z_a1MB4UFk1vRd-v7D11Zw',
-          },
-          timeout: 5000,
+        headers: {
+          'X-AccessKey': 'Z_a1MB4UFk1vRd-v7D11Zw',
+        },
+        timeout: 5000,
       }
     ); // 赋值给响应式变量
-    console.log('检查新版本:', updater);
+    console.log('检查新版本:', updater, JSON.stringify(updater));
 
     if (updater !== null) {
       updater.downloadAndInstall()
